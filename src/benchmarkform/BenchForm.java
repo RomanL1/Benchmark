@@ -64,7 +64,7 @@ public class BenchForm extends javax.swing.JFrame {
         setBackground(new java.awt.Color(255, 255, 255));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setText("Benchmark V3.0 by Roman Lysser (1.11.2018) ©");
+        jLabel1.setText("Benchmark V1.0 by Roman Lysser (1.11.2018) ©");
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 11, 250, -1));
 
         labelCPUIdentifier.setText("CPU Identifier: ");
@@ -184,7 +184,7 @@ public class BenchForm extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(() -> {
             BenchForm GUI = new BenchForm();
-            GUI.setTitle("Benchmark V3.0");
+            GUI.setTitle("Benchmark V1.0");
             GUI.setVisible(true);
             GUI.setResizable(false);
             GUI.getContentPane().setBackground(Color.lightGray);
